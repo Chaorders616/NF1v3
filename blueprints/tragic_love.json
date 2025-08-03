@@ -1,0 +1,7 @@
+[
+  {"phase": "Connection", "intent": "Introduce lovers and bond"},
+  {"phase": "Separation", "intent": "Introduce obstacle or misunderstanding"},
+  {"phase": "Longing", "intent": "Show emotional distance or yearning"},
+  {"phase": "Reunion Attempt", "intent": "One side reaches out or fights back"},
+  {"phase": "Tragic End", "intent": "Love lost due to fate or sacrifice"}
+]

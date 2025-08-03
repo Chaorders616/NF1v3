@@ -1,0 +1,74 @@
+[
+    {
+        'phase': {
+            'type': 'Introduction',
+            'duration': 1,
+            'intended_shift': 'A is unaware',
+            'setting': 'Office'
+        },
+        'clips': [
+            {
+                'suggested_prompt': 'Confrontation between A and B.',
+                'intent': 'confrontation',
+                'hook_hint': '',
+                'resolve_hook_id': '',
+                'text': "A: how could you do this to me, b? after all we've been through together.\nB: i never meant to hurt you, a. it just happened.\nA: just happened? you call betraying me and breaking my trust just happening?\nB: i didn't plan for any of this to happen. it just... unfolded.\nA: unfolded? like a tragic play where i'm the fool and you're the villain?\nB: i never wanted to be the villain in your story, a. i just wanted to find my own happiness.\nA: your happiness? at the expense of mine? how selfish can you be, b?\nB: i never wanted to hurt you, a. but i couldn't keep living a lie.\nA: a lie? our entire relationship was a lie to you?\nB: no, a. i meant... i meant the lie i was living within myself. i couldn't keep pretending to be someone i'm not.\nA: so you chose to destroy us instead? to shatter everything we had built together?\nB: i didn't mean for it to happen like this, a. i never wanted to hurt you.\nA: but you did, b. and now all i feel is rage. rage at you for tearing us apart. rage at myself for ever trusting you.\nB: i understand if you hate me, a. but please, try to understand my side of the story.\nA: your side of the story doesn't matter anymore, b. you've destroyed everything we had. and i will never forgive you for that. never.",
+                'summary': "A: how could you do this to me, b? after all we've been through together"
+            }
+        ]
+    },
+    {
+        'phase': {
+            'type': 'Escalation',
+            'duration': 2,
+            'intended_shift': 'A becomes suspicious',
+            'setting': 'Warehouse'
+        },
+        'clips': [
+            {
+                'suggested_prompt': 'Confrontation between A and B.',
+                'intent': 'confrontation',
+                'hook_hint': '',
+                'resolve_hook_id': '',
+                'text': "A: how could you do this to me, b? after everything i've done for you, after all the sacrifices i've made, you betray me like this?\nB: i never meant for it to come to this, a. i never wanted to hurt you. but i had no choice.\nA: no choice? you always have a choice, b. you chose to turn your back on me when i needed you the most. you chose to stab me in the back.\nB: i had to think of myself, a. i had to think of my own survival. i couldn't let you drag me down with you.\nA: drag you down? i was trying to save us, b. i was trying to protect us. and you threw it all away for your own selfish desires.\nB: don't you dare talk to me about selfishness, a. you're the one who's always put yourself first. you're the one who's always been willing to sacrifice anyone and anything to get what you want.\nA: how dare you. how dare you twist the truth like this. you know deep down that everything i did, i did for us. and now, now you've left me with nothing.\nB: i had to do what i had to do, a. and i won't apologize for it. i won't apologize for finally standing up for myself and breaking free from your grasp.\nA: you'll regret this, b. you'll regret the day you turned your back on me. you'll regret the day you chose to betray me.\nB: maybe. but maybe not. maybe this is the best thing that could have happened. maybe now i can finally be free of you and all your lies.\nA: how can you say that? how can you be so heartless? don't you feel anything? don't you feel any guilt for what you've done?\nB: guilt? guilt is a luxury i can't afford, a. guilt won't bring back what we had. guilt won't change what i've done. and neither will your rage.\nA: (enraged) how dare you. how dare you stand there and pretend like you're the victim. you're not the victim, b. you're the villain. and i'll make sure you pay for what you've done. i'll make sure you regret the day you crossed me. (storms off)",
+                'summary': "A: how could you do this to me, b? after everything i've done for you, after all the sacrifices i've made, you betray me like this?\nB: i never meant for it to come to this, a"
+            }
+        ]
+    },
+    {
+        'phase': {
+            'type': 'Confrontation',
+            'duration': 3,
+            'intended_shift': 'A accuses B openly',
+            'setting': 'Interrogation room'
+        },
+        'clips': [
+            {
+                'suggested_prompt': 'Confrontation between A and B.',
+                'intent': 'confrontation',
+                'hook_hint': '',
+                'resolve_hook_id': '',
+                'text': "A: how could you do this to me, b? after all we've been through together.\nB: i never meant for it to happen, a. it just... it just happened.\nA: just happened? you call betraying me something that just happened?\nB: i never wanted to hurt you, a. i swear.\nA: swear? your words mean nothing to me now. you've torn my heart to shreds.\nB: i know i've made a mistake, a. but please, forgive me.\nA: forgive you? how can i forgive someone who has destroyed everything we had?\nB: i never thought it would come to this, a. i never thought i would hurt you like this.\nA: but you did, b. you did. and now i'm left here, picking up the pieces of a shattered love.\nB: i'm sorry, a. i'm so sorry.\nA: sorry isn't going to change what you've done. sorry isn't going to make this pain go away. sorry isn't going to bring back the trust you've broken.\nB: i didn't mean for any of this to happen, a. i swear.\nA: your words mean nothing to me now, b. your apologies ring hollow in my ears. you have betrayed me in the worst way possible.\nB: please, a. please forgive me.\nA: i can't, b. i can't forgive you for what you've done. i can't forgive you for breaking my heart. i can't forgive you for destroying everything we had.\nB: then what do you want from me, a? what can i do to make this right?\nA: nothing, b. there's nothing you can do. you've crossed a line that can never be uncrossed. you've shattered my trust, my love, my faith in you.\nB: i... i didn't mean to hurt you, a. i didn't mean for any of this to happen.\nA: but it did, b. it did. and now all that's left is the wreckage of a love that once was. and in its place, there's only guilt and rage.",
+                'summary': "A: how could you do this to me, b? after all we've been through together"
+            }
+        ]
+    },
+    {
+        'phase': {
+            'type': 'Collapse',
+            'duration': 2,
+            'intended_shift': 'A loses control',
+            'setting': 'Back alley'
+        },
+        'clips': [
+            {
+                'suggested_prompt': 'Confrontation between A and B.',
+                'intent': 'confrontation',
+                'hook_hint': '',
+                'resolve_hook_id': '',
+                'text': "A: you betrayed me, b. you were supposed to be my friend, my confidant. how could you do this to me?\nB: i never meant for it to happen this way. i never meant to hurt you.\nA: but you did hurt me. you took something precious from me, something i can never get back.\nB: i know, and i will never forgive myself for it. but i had no choice.\nA: no choice? you always have a choice. you chose to betray me, to stab me in the back.\nB: it wasn't like that. i was backed into a corner, forced to make a decision.\nA: forced? you could have come to me, talked to me about it. but instead, you chose to deceive me.\nB: i'm sorry. i know i messed up, but i can't change what happened.\nA: no, you can't. and now i'm left to pick up the pieces of our shattered friendship.\nB: i understand if you never want to speak to me again.\nA: you're damn right i don't want to speak to you again. you've shown your true colors, and i want nothing to do with you.\nB: i never wanted it to end like this. i never wanted to lose you as a friend.\nA: well, congratulations. you got what you wanted. you've lost me forever. and i hope the guilt eats you alive.\nB: i...i never meant for this to happen. i never meant to cause you so much pain.\nA: it's too late for apologies now. the damage is done, and there's no going back. goodbye, b. i hope you can live with yourself.",
+                'summary': "A: you betrayed me, b"
+            }
+        ]
+    }
+]

@@ -1,0 +1,7 @@
+[
+  {"phase": "Normality", "intent": "Show daily life and character baseline"},
+  {"phase": "Disturbance", "intent": "Introduce mystery or anomaly"},
+  {"phase": "Discovery", "intent": "Protagonist investigates or uncovers clue"},
+  {"phase": "False Truth", "intent": "Mislead audience with a plausible theory"},
+  {"phase": "Twist Reveal", "intent": "Subvert prior belief with shocking truth"}
+]

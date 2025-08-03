@@ -1,0 +1,48 @@
+{
+  "NarrativeKernel": {
+    "input": {
+      "user_intent": "string or structured object",
+      "world_template": "optional preset (e.g. cyberpunk / highschool / noir)"
+    },
+    "core_modules": {
+      "FiveForcePlanner": {
+        "outputs": ["theme", "conflict_core", "character_arcs", "background_tension", "hook_density"]
+      },
+      "BlueprintEngine": {
+        "inputs": ["five_forces"],
+        "outputs": ["narrative_blueprint", "sequence_outline"]
+      },
+      "ClipForge": {
+        "inputs": ["blueprint", "hook_config"],
+        "outputs": ["clip_units", "dialogue_blocks", "emotion_flows"]
+      },
+      "HookEngine": {
+        "inputs": ["clip_units"],
+        "outputs": ["hook_map", "hook_peak_timing"]
+      },
+      "TensionProxyLayer": {
+        "inputs": ["dialogue_blocks"],
+        "outputs": ["sanitized_script"]
+      },
+      "PromptCompiler": {
+        "inputs": ["clip_units", "sanitized_script"],
+        "outputs": ["ScenePromptUnit"]
+      },
+      "SceneCommandInterface": {
+        "inputs": ["ScenePromptUnit"],
+        "targets": ["text_output", "tts_output", "image_gen", "video_pipeline"]
+      }
+    },
+    "optional_modules": {
+      "KnowledgeBinderLayer": "optional (inject domain knowledge)",
+      "CausalIntentTrace": "for logical depth control",
+      "AudienceProfileModulationLayer": "culture-aware adjustment",
+      "PostStructuralCueEmitter": "for ethical/emotional ending control",
+      "NarrativeEvolutionLayer": "for sequel/expansion seed suggestion"
+    },
+    "output": {
+      "media_type": "script / storyboard / podcast / multimodal",
+      "interface": "API / Notion / Streamlit / CLI"
+    }
+  }
+}

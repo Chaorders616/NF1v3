@@ -1,0 +1,37 @@
+{
+  "default": {
+    "language": "en",
+    "tone": "neutral",
+    "sentence_form": "balanced",
+    "syntax_pattern": "X and Y. Then Z.",
+    "pivot_required": false,
+    "pivot_hint": "",
+    "emotion_jump": ""
+  },
+
+  "tragic_irony": {
+    "language": "en",
+    "tone": "tragic irony",
+    "sentence_form": "short+broken",
+    "syntax_pattern": "X. Then Y. But Z.",
+    "pivot_required": true,
+    "pivot_hint": "He never denied it.",
+    "emotion_jump": "guilt→rage"
+  },
+
+  "cinematic_realism": {
+    "language": "en",
+    "tone": "cool realism",
+    "sentence_form": "long+flowing",
+    "syntax_pattern": "X, and Y, while Z happens.",
+    "pivot_required": false,
+    "pivot_hint": "",
+    "emotion_jump": ""
+  },
+
+  "rage_pivot": {
+    "pivot_required": true,
+    "pivot_hint": "Something snapped.",
+    "emotion_jump": "frustration→violence"
+  }
+}

@@ -1,0 +1,7 @@
+[
+  {"phase": "Fall", "intent": "Protagonist faces moral failure or loss"},
+  {"phase": "Reflection", "intent": "Self-realization and remorse"},
+  {"phase": "Struggle", "intent": "Attempt at atonement and facing opposition"},
+  {"phase": "Sacrifice", "intent": "Make hard choice to do what's right"},
+  {"phase": "Redemption", "intent": "Achieve moral or emotional resolution"}
+]
